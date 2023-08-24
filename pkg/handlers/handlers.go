@@ -39,5 +39,3 @@ func (m *Repository) About(w http.ResponseWriter, r *http.Request) {
 	render.RenderTemplate(w, "about.page.html", &models.TemplateData{})
 
 }
-
-// a brown fox jum
